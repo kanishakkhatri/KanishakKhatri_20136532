@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-16">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/kanishak.khatri/Downloads/JARS/SPRING/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kanishak.khatri/Downloads/JARS/SPRING/aspectjrt.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kanishak.khatri/Downloads/JARS/SPRING/aspectjweaver.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kanishak.khatri/Downloads/JARS/SPRING/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kanishak.khatri/Downloads/JARS/SPRING/commons-beanutils.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kanishak.khatri/Downloads/JARS/SPRING/commons-collections.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kanishak.khatri/Downloads/JARS/SPRING/commons-dbcp.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kanishak.khatri/Downloads/JARS/SPRING/commons-digester.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kanishak.khatri/Downloads/JARS/SPRING/commons-logging.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kanishak.khatri/Downloads/JARS/SPRING/commons-pool.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kanishak.khatri/Downloads/JARS/SPRING/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kanishak.khatri/Downloads/JARS/SPRING/hibernate3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kanishak.khatri/Downloads/JARS/SPRING/hsqldb.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kanishak.khatri/Downloads/JARS/SPRING/jakarta-oro.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kanishak.khatri/Downloads/JARS/SPRING/jstl.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kanishak.khatri/Downloads/JARS/SPRING/jta.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kanishak.khatri/Downloads/JARS/SPRING/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kanishak.khatri/Downloads/JARS/SPRING/mysql-connector-java-5.0.4-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kanishak.khatri/Downloads/JARS/SPRING/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kanishak.khatri/Downloads/JARS/SPRING/slf4j-api-1.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kanishak.khatri/Downloads/JARS/SPRING/slf4j-log4j12-1.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kanishak.khatri/Downloads/JARS/SPRING/spring.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kanishak.khatri/Downloads/JARS/SPRING/spring-webmvc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kanishak.khatri/Downloads/JARS/SPRING/spring-webmvc-struts.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kanishak.khatri/Downloads/JARS/SPRING/standard.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kanishak.khatri/Downloads/JARS/SPRING/struts.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

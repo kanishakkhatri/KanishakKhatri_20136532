@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Web Student Registration Page</title>
+	</head>
+	<body>
+		<h1>Registration page</h1>
+		<form action="Login" method="post">
+			<label for="sid">SID:</label>
+			<input type="text" id="sid" name="sid" required><br><br>
+			
+			<label for="sname">SNAME:</label>
+			<input type="text" id="sname" name="sname" required><br><br>
+			
+			<label for="phone">Phone:</label>
+			<input type="text" id="phone" name="phone" required><br><br>
+			
+			<label for="marks">Marks:</label>
+			<input type="text" id="marks" name="marks" required><br><br>
+			
+			<label for="branch">Branch:</label>
+			<input type="text" id="branch" name="branch" required><br><br>
+			
+			<input type="submit" value="Register">
+		</form>
+	</body>
+</html>

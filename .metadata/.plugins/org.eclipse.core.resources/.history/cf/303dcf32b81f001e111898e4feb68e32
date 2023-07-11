@@ -1,0 +1,29 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EMI Calculation Result</title>
+</head>
+<body>
+    <h1>EMI Calculation Result</h1>
+    <% 
+        double principal = Double.parseDouble(request.getParameter("principal"));
+        double interestRate = Double.parseDouble(request.getParameter("interestRate"));
+        int time = Integer.parseInt(request.getParameter("time"));
+
+        double monthlyInterestRate = (interestRate / 12) / 100;
+        double emi = (principal * monthlyInterestRate * Math.pow(1 + monthlyInterestRate, time)) / (Math.pow(1 + monthlyInterestRate, time) - 1);
+        double totalAmount = emi * time;
+
+        // Format the values to two decimal places
+        emi = Math.round(emi * 100) / 100.0;
+        totalAmount = Math.round(totalAmount * 100) / 100.0;
+    %>
+
+    <p>Principal Amount: <%= principal %></p>
+    <p>Rate of Interest: <%= interestRate %></p>
+    <p>Time (in months): <%= time %></p>
+    <p>EMI per Month: <%= emi %></p>
+    <p>Total Amount: <%= totalAmount %></p>
+</body>
+</html>

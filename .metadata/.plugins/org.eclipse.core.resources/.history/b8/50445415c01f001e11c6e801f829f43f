@@ -1,0 +1,32 @@
+package com;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+		Configuration cfg = new Configuration();
+        cfg.configure("hibernate.cfg.xml");
+
+        SessionFactory factory=cfg.buildSessionFactory();
+
+        Session session = factory.openSession();
+
+        Transaction tx = session.beginTransaction();
+        Person i=new Person();
+        
+        i.setCid(23);
+        i.setCname("Kanishak");
+        i.setPlace("Delhi");
+        i.setPan("KK0008");
+
+        session.save(i);
+        tx.commit();
+
+        System.out.println("Details Added!");
+	}
+
+}

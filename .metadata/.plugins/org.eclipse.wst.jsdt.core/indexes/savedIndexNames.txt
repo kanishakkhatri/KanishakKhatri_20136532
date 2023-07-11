@@ -1,0 +1,9 @@
+INDEX VERSION 1.4+C:\Users\kanishak.khatri\Documents\IGT Training Test\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3899417033.index
+2603747380.index
+2018597256.index
+3737665798.index
+298167684.index
+3337828532.index
+1724030226.index
+639561161.index
